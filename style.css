@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e0eafc);
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  padding: 40px 20px;
+  border-bottom: 5px solid #fff;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #f0f0f0;
+}
+
+.about {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  margin-top: -40px;
+}
+
+.about .highlight {
+  color: #2575fc;
+  font-weight: 600;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.facebook {
+  background: #4267B2;
+}
+
+.facebook:hover {
+  background: #365899;
+}
+
+.whatsapp {
+  background: #25D366;
+}
+
+.whatsapp:hover {
+  background: #1ebe5d;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #f1f1f1;
+  font-size: 0.9em;
+  color: #555;
+}
+.shop-section {
+  background: #ffffff;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.shop-section h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.shop-logo {
+  width: 10px;
+  height: 10px;
+  transition: transform 0.3s ease;
+}
+
+.shop-logo:hover {
+  transform: scale(1.05);
+}
